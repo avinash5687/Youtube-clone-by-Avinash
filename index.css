@@ -6,8 +6,8 @@ body{
     justify-content:center;
     align-items:center;
     border:1px solid #C6C6C6;
-    height: 60px;
-    font-size:18px;
+    height: 56px;
+    font-size: 18px;
 }
 #logo{
     display:flex;
@@ -45,34 +45,54 @@ body{
     width:10%;
     padding-left: 10px;
 }
+
+
 #end{
     width:20%;
     display:flex;
     justify-content:space-evenly;
     align-items:center;
-}#videodiv{
+}
+
+#videodiv{
     margin-top: 50px;
-}.mons{
+}
+
+.mons{
     width: 450px;
     height:  300px;
     margin: 20px;
 }
+
+
 @media screen and (max-width: 620px) {
    #end i,#logo i{
        display: none;
-   }#end i:nth-child(5){
+   }
+   
+   #end i:nth-child(5){
        display: block;
    }
+
+
    #logo img{
         width: 100%;
         margin: 0;
-   }#center{
+   }
+   
+   #center{
        margin-left: 30px;
-   }#search input{
+   }
+   
+   #search input{
        width: 70%;
-   }#navbar{
+   }
+   
+   #navbar{
        border-right: none;
-   }.mons{
+   }
+   
+   .mons{
        width: 310px;
        height: 200px;
    }
